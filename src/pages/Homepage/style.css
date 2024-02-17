@@ -1,0 +1,118 @@
+.home{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    min-width: 600px;
+    height: 400px;
+    border: 1px solid white;
+    text-align: center;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    white-space: wrap;
+}
+
+.typing-text-1 {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    overflow:hidden;
+    width: 100%;
+    white-space: nowrap;
+    animation: typing-animation-1 5s ; 
+    /* animation-delay: 3s; */
+    /* background-color: red; */
+  }
+  
+  @keyframes typing-animation-1 {
+    from { width: 0; opacity: 0;}
+    to{width: 100%; opacity: 1;}
+  }
+
+  .typing-text-2 {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    overflow:hidden;
+    width: 100%;
+    opacity: 0;
+    white-space: nowrap;
+    animation: typing-animation-2 4s forwards; 
+    animation-delay: 2s;
+    /* background-color: red; */
+  }
+  
+  @keyframes typing-animation-2 {
+    from { width: 0; opacity: 0;}
+    to{width: 100%; opacity: 1;}
+  }
+
+  .typing-text-3 {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    overflow:hidden;
+    width: 100%;
+    opacity: 0;
+    white-space: nowrap;
+    animation: typing-animation-3 4s forwards; 
+    animation-delay: 4s;
+    /* background-color: red; */
+  }
+  
+  @keyframes typing-animation-3 {
+    from { width: 0; opacity: 0; }
+    to{width: 100%; opacity: 1;}
+  }
+
+  .typing-text-4 {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    overflow:hidden;
+    width: 100%;
+    opacity: 0;
+    white-space: nowrap;
+    animation: typing-animation-3 4s forwards; 
+    animation-delay: 8s;
+    /* background-color: red; */
+  }
+  
+  @keyframes typing-animation-3 {
+    from { width: 0; opacity: 0; }
+    to{width: 100%; opacity: 1;}
+  }
+
+ input{
+    text-align: center;
+    height: 30px;
+ }
+ 
+ .error
+{
+  color: red;
+}
+
+  .submit-btn{
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+    animation-delay: 10s;
+    color: yellow;
+    height: 60px;
+    font-size: 24px;
+    padding-left: 12px;
+    text-align: center;
+  }
+
+  @keyframes fadeIn {
+    from{width: 0; opacity: 0;}
+    to{width: 100%; opacity: 1;}
+  }

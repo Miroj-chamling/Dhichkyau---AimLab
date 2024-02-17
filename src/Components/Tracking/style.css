@@ -1,0 +1,33 @@
+.tracking-component{
+    width: 80%;
+    height: 70%;
+    position: relative;
+}
+
+.game-screen{
+    height: 80%;
+    width: 100%;
+    background: #002c4880;
+    cursor: crosshair;
+    position: relative;
+}
+
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: orange;
+    width: fit-content;
+    height: fit-content;
+    padding: 12px;
+    border-radius: 12px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 0.3s linear;
+}
+
+.start:hover{
+    background:orangered;
+}

@@ -1,0 +1,36 @@
+.mode-component{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex:1;
+    height: 100%;
+    background: #d0edff;
+    border-radius: 12px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s ease-in;
+    
+}
+
+.mode-component:hover{
+    background: #002c4880;
+}
+
+.image-div{
+    display: flex;
+    height: 80%;
+    width: 100%;
+    justify-content: center;
+    /* align-items: center; */
+    /* background-color: red; */
+}
+
+.mode{
+    height: 20%;
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+    width: 100%;
+    background-color: #005083;
+    text-align: center;
+}
