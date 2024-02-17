@@ -1,6 +1,9 @@
-# React + Vite
+This app is created from scratch with no external libraries, except for the icons fonts and routing.
+The file structure is not that good, as I did this out of curosity.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Any new good changes are welcome!
+
+-I am thinking of adding backend to it!
 
 Currently, two official plugins are available:
 
